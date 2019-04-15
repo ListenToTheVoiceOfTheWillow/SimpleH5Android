@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SimpleH5Android</string>
+    <string name="clicktwice">再按一次退出</string>
+    <string name="is_debug">IS_DUBUG</string>
 </resources>

@@ -14,7 +14,18 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
+ext {
+    minSdkVersion = 15
+    targetSdkVersion = 26
+    compileSdkVersion = 26
+    buildToolsVersion = '27.0.3'
 
+    versionCode = 18
+    versionName = '1.0.18'
+
+
+
+}
 allprojects {
     repositories {
         google()
